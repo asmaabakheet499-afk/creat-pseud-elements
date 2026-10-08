@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+background: #2a7b9b;    
+background: linear-gradient(90deg, rgba(43, 18, 39, 1) 13%, rgba(93, 9, 94, 1) 34%, rgba(103, 11, 58, 1) 76%, rgba(105, 12, 50, 1) 92%); 
+width: 100%;
+height: 20vh;
+text-align: center;
+color: white;
+padding: 80px 20px;
+overflow: hidden;
+position: relative;
+
+}
+header h1 span{
+    color: rgb(158, 134, 180);
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+ 
+
+
+
+    
+div{
+    border:1px rgb(158, 134, 180) solid;
+    border-radius: 30px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 5px 5px;
+   
+    
+}
+div h2{
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 13px;
+  margin: 0;
+  text-align: center; 
+  color: rgb(150, 117, 182);
+  padding: 8px 8px;
+}
+header p{
+    font-size: 18px;
+    line-height: 1.8;
+    width: 600px;
+    max-width: 90%;
+    margin: 0 auto 5px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 20px 8px 23px;
+    border-radius: 6px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+} 
+
+header ::before{
+content: "";
+background-color: rgba(78, 8, 62, 0.979);
+width: 300px;
+height: 300px;
+position: absolute;
+top: -120px;
+left: -100px;
+border-radius: 50%;
+}
+
+header ::after{
+content: "";
+background-color: rgba(87, 38, 75, 0.979);
+width: 180px;
+height: 180px;
+position: absolute;
+bottom: 120px;
+right: 100px;
+border-radius: 50%;
+}
+
+.cir::before{
+    content: "";
+width: 50px;
+height:50px;
+position: absolute;
+top: 40px;
+right: 35%;
+border-radius: 50%;
+border: 3px solid rgba(87, 38, 75, 0.979);
+background-color: rgba(103, 11, 58, 1);
+}
+.cir::after{
+    content: "";
+width: 80px;
+height:80px;
+position: absolute;
+bottom: -50px;
+right: 100px;
+overflow: hidden;
+border-radius: 50%;
+background-color: rgba(87, 38, 75, 0.979);
+}
+.car::before{
+   content: "";
+width: 50px;
+height:50px;
+position: absolute;
+top: 215px;
+left: 215px;
+
+border-radius: 50%;
+background-color: rgba(78, 8, 62, 0.979); 
+}
+header button:hover{
+    background-color: rgba(78, 8, 62, 0.979);
+}
+.comment{
+    width: 380px;
+    height: 100px;
+    margin: 50px auto;
+    overflow: auto;
+    
+    border: none;
+    background-color: white;
+    box-shadow:0 10px 30px rgba(12, 9, 9, 0.541) ;
+    position: relative;
+    border-radius: 12px;
+    padding: 25px;
+    
+    
+    
+}
+
+
+.Cmments{
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border: none;
+    padding: 5px 20px;
+    margin-top:0 ;
+    margin-bottom: 10px;
+    direction: ltr;
+    text-align: left;
+
+    
+}
+.Cmments span{
+    color: #3213a1;
+}
+.content{
+   
+    border: none;
+    background-color: rgb(231, 223, 223);
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.content h4{
+   margin: 0 0 6px 0;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   color: #281ebd;
+   direction: ltr;
+}
+.content p{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+    direction: ltr;
+}
+.card{
+    width:400px;
+    padding: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 10px 30px rgb(8, 8, 8);
+    position: relative;
+}
+.title{
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+   color: rgb(141, 139, 139);
+  margin-top: 0;
+  margin-bottom: 50px;
+  
+
+}
+.card2{
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.author{
+    direction: ltr;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+   color: rgb(134, 121, 121);
+  margin-top: 50px;
+  margin-bottom: 0;
+  margin-left: 30px;
+
+}
+.title::before {
+  content: "";
+  position: absolute;
+  top: 70px;
+  left: 30px;
+  width:5px; 
+  height: 70%; 
+  background-color: #2293a1;
+  border-radius: 2px; 
+}
+
+
+
+
+   
+   
+
+
